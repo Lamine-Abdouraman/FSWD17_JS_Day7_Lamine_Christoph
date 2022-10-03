@@ -1,0 +1,30 @@
+.container-recipe {
+    display: flex;
+    justify-content: center;
+}
+
+.main-image {
+    background-image: url(/IMG/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg);
+    background-size: cover;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 15em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verd#ana', sans-serif;
+    color: white;
+}
+
+h3 {
+    color: white;
+    font-size: 10em;
+}
+
+p {
+    color: white;
+    font-size: 5em;
+}

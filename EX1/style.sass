@@ -1,0 +1,105 @@
+
+ul
+    display: flex
+    list-style: none
+
+a
+    text-decoration: none
+
+    cursor: pointer
+
+a:hover
+    background-color: green
+header
+    .top-nav
+        display: flex
+        justify-content: space-between
+
+    nav ul.bottom-nav
+        width: 100%
+        display: flex
+        justify-content: space-between
+
+main
+
+    .container
+        margin: 2em
+        width: 80vW
+        height: 80vH
+        display: grid
+        grid-template-columns: 1fr 1fr 1fr
+        grid-template-rows: 1fr 1fr 1fr
+        justify-content: center
+        grid-gap: 2em
+        padding-left: 10vw
+        padding-right: 10vw
+
+        .box
+            height: 100%
+            width: 100%
+            background-size: cover
+            background-repeat: no-repeat
+
+        .first_box
+            background-image: url(IMG/amirali-mirhashemian-uhgJYtrO3fY-unsplash.jpg)
+        .second_box
+            background-image: url(IMG/anna-tukhfatullina-food-photographer-stylist-Mzy-OjtCI70-unsplash.jpg)
+        .third_box
+            background-image: url(IMG/brooke-lark-jUPOXXRNdcA-unsplash.jpg)
+        .forth_box
+            background-image: url(IMG/chad-montano-eeqbbemH9-c-unsplash.jpg)
+        .fifth_box
+            background-image: url(IMG/chad-montano-lP5MCM6nZ5A-unsplash.jpg)
+        .sixt_box
+            background-image: url(IMG/chad-montano-lP5MCM6nZ5A-unsplash.jpg)
+        .seventh_box
+            background-image: url(IMG/chad-montano-MqT0asuoIcU-unsplash.jpg)
+        .eighth_box
+            background-image: url(IMG/george-zheng-0Kbjfwunink-unsplash.jpg)
+        .nineth_box
+            background-image: url(IMG/thanos-pal-Djs02AtkOm4-unsplash.jpg)
+
+        .titel
+            text-align: center
+            background-color: #000000
+            color: white
+            opacity: 0.7
+            position: relative
+            top: 70%
+
+footer
+    background-color: #000000
+    color: white
+    align-items: center
+    padding: 3em
+
+    ul
+        list-style: none
+        display: flex
+        justify-content: space-between
+
+        a
+            text-decoration: none
+            color: white
+
+    div.icon_container
+        display: flex
+        justify-content: center
+
+        .icon
+            border-radius: 5em
+            background-color: white
+            margin: 2em
+
+    .copy
+        text-align: center
+
+@media screen and  (max-width: 1200px) and (min-width: 481px)
+    .container
+        grid-auto-columns: 1fr 1fr
+
+@media screen and (max-with: 480px)
+    .container
+        display: grid
+        grid-template-columns: 1fr
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 
